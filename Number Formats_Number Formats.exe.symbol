@@ -1,0 +1,40 @@
+< THE SYMBOL TABLE >  Number Formats_Number Formats.exe  --  emu8086 assembler version: 4.08 
+===================================================================================================
+Name                     	Offset    	Size      	Type      	Segment   
+===================================================================================================
+STACK                    	00000     	-5        	SEGMENT   	(ITSELF)  
+DATA                     	00010     	-5        	SEGMENT   	(ITSELF)  
+USER                     	00000     	1         	VAR       	data      
+BINARY                   	0002A     	1         	VAR       	data      
+HEXA                     	0004B     	1         	VAR       	data      
+ROMAN                    	00071     	1         	VAR       	data      
+NUMBER                   	00091     	2         	VAR       	data      
+ROMANNUM                 	00093     	1         	VAR       	data      
+CODE                     	0001B     	-5        	SEGMENT   	(ITSELF)  
+INPUT                    	0000E     	-1        	LABEL     	code      
+NEXT                     	0002B     	-1        	LABEL     	code      
+CONVERSIONTOBINARY       	00041     	-1        	LABEL     	code      
+PRINTBINARY              	00054     	-1        	LABEL     	code      
+CONVERSIONTOHEXA         	00076     	-1        	LABEL     	code      
+PRINTHEXA                	00089     	-1        	LABEL     	code      
+PRINTHEXADIGIT           	00092     	-1        	LABEL     	code      
+CONVERTTOROMAN           	000C5     	-1        	LABEL     	code      
+ROMAN_LOOP               	000D0     	-1        	LABEL     	code      
+INROMAN_500              	000E6     	-1        	LABEL     	code      
+INROMAN_100              	000F7     	-1        	LABEL     	code      
+INROMAN_90               	00106     	-1        	LABEL     	code      
+INROMAN_50               	0011A     	-1        	LABEL     	code      
+INROMAN_40               	00129     	-1        	LABEL     	code      
+INROMAN_10               	0013D     	-1        	LABEL     	code      
+INROMAN_9                	0014C     	-1        	LABEL     	code      
+INROMAN_5                	00161     	-1        	LABEL     	code      
+INROMAN_4                	00171     	-1        	LABEL     	code      
+INROMAN_1                	00186     	-1        	LABEL     	code      
+DONE_ROMAN               	00196     	-1        	LABEL     	code      
+PRINTROMAN               	0019A     	-1        	LABEL     	code      
+PRINTROMAN_LOOP          	001A1     	-1        	LABEL     	code      
+PRINTROMAN_DONE          	001B1     	-1        	LABEL     	code      
+===================================================================================================
+[ 4/22/2025  --  3:20:05 PM ] 
+< END >
+ 
